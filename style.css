@@ -1,0 +1,28 @@
+body{
+    background-color: deepskyblue;}
+
+    h1{
+        color: fuchsia;
+        background-color: gold;
+    }
+    #show_sketch{
+        float: right;
+    }
+    canvas{
+        border: black 5px solid;
+        border-radius: 30px;
+        animation-name: example;
+        animation-duration: 4s;
+        margin-top: 100px;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example{
+        from{box-shadow:1px 1px 38px blue;}
+        to{box-shadow:1px 1px 38px greenyellow ;}
+        
+    }
+    p{
+        padding-top:10px ;
+        font-size: 25px;
+    }
